@@ -1,0 +1,160 @@
+/*HTML elements*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #40514E;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto ;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    font-size: 20px;
+    font-family: 'Monsterrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 4px;
+    border-bottom: none;
+    width: 5%;
+    color: #EAF6F6;
+    margin: 100px auto; /*makes the dotted border to be centered from top to bottom*/
+}
+
+/*CSS Selectors*/
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 20px 0px;
+}
+/*Creates a box for all containers*/
+.top-container{
+    background-color:#EAF6F6;
+    position: relative;
+    /*Increases the top padding of top-container, 
+    to give room for the clouds and any other img element
+    */
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0px 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.helmet-img {
+    width: 20%;
+}
+
+.coding-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;;
+}
+
+.cloud-network-img, .connection-img  {
+    width: 20%;
+    float: right;
+    margin-left: 10px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%; /*reduces the width of the text*/
+    margin: auto;/*Positions the text to be centered*/
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 40px;
+}
+
+
+
+/*Code for the btn*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
